@@ -4,7 +4,7 @@
 # It will reassign a previously allocated Elastic IP to the instance which runs the script
 # This is useful if a single instance inside an ASG dies and a new instance must spin up with the same EIP
 # The instance must have an IAM role that allows "ec2 associate-address"
-#Souce: https://github.com/swoodford/aws
+#Source: https://github.com/swoodford/aws
 
 # Set the allocated Elastic IP here
 ELASTIC_IP="1.2.3.4"
