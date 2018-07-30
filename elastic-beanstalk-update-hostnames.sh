@@ -3,7 +3,7 @@
 # This script updates the hostname on Elastic Beanstalk servers with their environment name and IP address
 # It also will restart New Relic monitoring if present
 # Requires the AWS CLI and jq
-#Souce: https://github.com/swoodford/aws
+#Source: https://github.com/swoodford/aws
 
 
 # Set Variables
